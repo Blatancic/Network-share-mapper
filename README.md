@@ -1,4 +1,4 @@
-# Network Share Mapper v7 (NSM) — Instructions
+# Network Share Mapper v7 (NFM) — Instructions
 
 
 

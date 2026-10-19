@@ -1,0 +1,5 @@
+Username,Password,SharePath,DisplayName
+"TestUser1","FakePass1!","\\192.168.1.150\TestUser1","Test User One Private"
+"TestUser2","FakePass2@","\\192.168.1.150\TestUser2","Test User Two Private"
+"TestUser3","FakePass3#","\\192.168.1.150\TestUser3","Test User Three Private"
+"TestUser4","FakePass4$","\\192.168.1.150\TestUser4","Test User Four Private"

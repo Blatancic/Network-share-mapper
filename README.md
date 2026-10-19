@@ -1,6 +1,6 @@
-# Network Folder Mapper v7 — Instructions
+# Network Share Mapper v7 (NSM) — Instructions
 
-**Credit:** Misel Blatancic 2026
+
 
 Network Folder Mapper v7 is a PowerShell/WinForms application for saving users and UNC network locations, connecting to shares, and managing Windows network shortcuts.
 
@@ -94,7 +94,7 @@ Windows generally maintains one active login or credential session per server na
 ## Troubleshooting
 
 - **The script does not start:** run it from PowerShell after `Set-ExecutionPolicy -Scope Process Bypass`, or check your organization's policies.
-- **`users.csv` is not found:** confirm that it is in the same folder as `NetworkFolderMapper_v7.ps1`.
+- **`users.csv` is not found:** confirm that it is in the same folder as `NSM.ps1`.
 - **The CSV cannot be loaded:** check the header `Username,Password,SharePath,DisplayName`, UTF-8 encoding, and that every row is correctly formatted.
 - **`Invalid UNC path`:** use the form `\\server\share`, not a local path such as `C:\Folder`.
 - **Authentication failed / Cannot access:** check network availability, username, password, share permissions, and existing Windows sessions to the server.

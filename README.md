@@ -10,7 +10,7 @@ Network Folder Mapper v7 is a PowerShell/WinForms application for saving users a
 
 Keep these files in the same folder:
 
-- `NetworkFolderMapper_v7.ps1` — the PowerShell application.
+- `NSM.ps1` — the PowerShell application.
 - `users.csv` — saved users, passwords, and network locations.
 
 ## Requirements
@@ -22,12 +22,12 @@ Keep these files in the same folder:
 ## How to run
 
 1. Confirm that the `.ps1` file and `users.csv` are in the same folder.
-2. Right-click `NetworkFolderMapper_v7.ps1` and select **Run with PowerShell**.
+2. Right-click `NSM.ps1` and select **Run with PowerShell**.
 3. If script execution is blocked, open PowerShell in that folder and run:
 
    ```powershell
    Set-ExecutionPolicy -Scope Process Bypass
-   .\NetworkFolderMapper_v7.ps1
+   .\NSM.ps1
    ```
 
 The `-Scope Process` setting applies only to the current PowerShell process and does not permanently change the system policy.
